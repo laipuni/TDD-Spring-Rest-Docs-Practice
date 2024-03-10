@@ -1,0 +1,45 @@
+ifndef::snippets[]
+:snippets: ../build/generated-snippets
+endif::[]
+= CafeKiosk REST API 문서
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[Product-API]]
+== Product API
+
+[[product-create]]
+=== 새로운 상품 등록
+
+==== HTTP Request
+include::{snippets}/product-create/http-request.adoc[]
+include::{snippets}/product-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/product-create/http-response.adoc[]
+include::{snippets}/product-create/response-fields.adoc[]
+
+[[product-selling]]
+=== 판매 가능한 상품 조회
+
+==== HTTP REQUEST
+include::{snippets}/product-selling/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/product-selling/http-response.adoc[]
+include::{snippets}/product-selling/response-fields.adoc[]
+
+[[order-create]]
+=== 주문 생성
+
+==== HTTP REQUEST
+include::{snippets}/order-create/http-request.adoc[]
+include::{snippets}/order-create/request-fields.adoc[]
+
+==== HTTP RESPONSE
+include::{snippets}/order-create/http-response.adoc[]
+include::{snippets}/order-create/response-fields.adoc[]
